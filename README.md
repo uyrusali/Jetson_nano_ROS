@@ -74,5 +74,5 @@ Parameters either can be set on commandline or  by editing the launch file in ``
 Run usb-cam node with the launch file by:
 
 ```
-$ roslaunch usb_cam swr_cam-test.launch
+$ roslaunch usb_cam swr_usb_cam.launch
 ```
