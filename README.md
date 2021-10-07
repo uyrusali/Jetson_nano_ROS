@@ -69,10 +69,10 @@ $ rosbag record /usb_cam/image_raw/compressed
 
 ### Change Video Parameters
 
-Parameters either can be set on commandline or  by editing the launch file in ```~/catkin-ws/src/usb-cam/launch``` or copy [usb_cam_test.launch](launch_files/usb_cam_test.launch) in the folder. 
+Parameters either can be set on commandline or  by editing the launch file in ```~/catkin-ws/src/usb-cam/launch``` or copy [swr_cam_test.launch](launch_files/swr_cam_test.launch) in the folder. 
 
 Run usb-cam node with the launch file by:
 
 ```
-$ roslaunch usb_cam usb_cam-test.launch
+$ roslaunch usb_cam swr_cam-test.launch
 ```
