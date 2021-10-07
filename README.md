@@ -54,3 +54,10 @@ Then we can first run usb_cam node and the rviz to make sure that usb_Cam is wor
 $ rosrun usb_cam usb_cam_node
 $ rosrun rviz rviz
 ```
+Click add and find the suplishing topic, e.g. ```/usb_cam/image_raw``` in topics tab. Now you should see the real-time images from the webcam.
+
+Start recoding the topic to a rosbag file.
+
+```
+$ rosbag record /usb_cam/image_raw
+```
