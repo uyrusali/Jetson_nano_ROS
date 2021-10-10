@@ -76,3 +76,12 @@ Run usb-cam node with the launch file by:
 ```
 $ roslaunch usb_cam swr_usb_cam.launch
 ```
+
+## GPS Record
+
+Install gps_umd ROS package
+
+## Start on startup
+
+Followed [this](https://blog.roverrobotics.com/how-to-run-ros-on-startup-bootup/) tutorial.
+
