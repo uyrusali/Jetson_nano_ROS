@@ -83,5 +83,5 @@ Install gps_umd ROS package
 
 ## Start on startup
 
-Followed [this](https://blog.roverrobotics.com/how-to-run-ros-on-startup-bootup/) tutorial. But needed to change a few settings. The files are in [/upstart](this) folder.
+Followed [this](https://blog.roverrobotics.com/how-to-run-ros-on-startup-bootup/) tutorial. But needed to change a few settings. The files are in [this](/upstart) folder.
 
